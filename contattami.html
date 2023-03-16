@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I miei contatti</title>
+</head>
+<body>
+    <h2>I miei contatti</h2>
+    <ul>
+        <li><a href="https://www.instagram.com/sergio_landi/" target="_blank">Mio instagram</a></li>
+        <li>+39 123 456 7890</li>
+        <li>Viale Mio Indirizzo N°X</li>
+        <li>Miaemail@gmail.com</li>
+    </ul>
+    <hr>
+
+    <form action="mailto:sergio.landi.2003@gmail.com" method="post" enctype="text/plain" target="_blank">
+        <label>Il tuo nome</label>
+        <input type="text" name="Nome">
+        <input type="checkbox">
+        <br><br>
+
+        <label>Sesso</label>
+        <input type="radio" name="Sesso"> Maschio
+        <input type="radio" name="Sesso"> Femmina
+        <br><br>
+
+        <label>Aggiungi una tua foto</label>
+        <input type="file" name="Foto">
+        <br><br>
+
+        <label>La tua data di nascita</label>
+        <input type="date" name="Nato/a il">
+        <br><br>
+
+        <label>La tua mail</label>
+        <input type="email" name="Email">
+
+        <label>Password</label>
+        <input type="password" name="Password">
+        <br><br>
+
+        <label>Cosa vuoi dirmi?</label>
+        <br>
+        <textarea name="Messaggio" rows="10" cols="30">Dimmi</textarea>
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
